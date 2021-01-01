@@ -1,0 +1,8 @@
+{{ $project := .Get 0}}
+{{ with .Site.GetPage "/projects" }}
+{{ with .GetPage $project}}
+<div id="exclude">
+  {{ partial "projects/head" . }}
+</div>
+{{end}}
+{{end}}
