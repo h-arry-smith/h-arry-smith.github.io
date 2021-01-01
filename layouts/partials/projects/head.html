@@ -58,13 +58,14 @@
       </div>
     </div>
   </div>
+  {{ with .Params.screenshots }}
   <div class="mt-4 ml-4">
     <p class="text-lg font-semibold tracking-wide text-gray-800">Screenshots</p>
     <hr>
   </div>
   <div class="px-4 my-4 overflow-scroll">
     <div class="flex w-max">
-      {{range .Params.screenshots}}
+      {{range .}}
       <div class="w-64 h-64 mx-4 overflow-hidden rounded-md shadow-md md:w-32 md:h-32 hover:shadow-lg">
         <a href={{.}}>
           <img class="object-cover w-full h-full" src={{.}} />
@@ -73,4 +74,5 @@
       {{end}}
     </div>
   </div>
+  {{ end }}
 </div>
