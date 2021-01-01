@@ -1,0 +1,12 @@
+<div class="p-1 my-2 ml-6">
+  <div class="flex items-center text-gray-500 transition duration-150 hover:text-gray-800">
+    <div class="w-8 h-8 ">
+      {{partial "icons/link" .}}
+    </div>
+    <div class="ml-1 text-lg font-medium">
+      {{ with .Get 0}}
+      <a href="{{.}}">{{.}}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>

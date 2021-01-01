@@ -19,6 +19,24 @@ website: "https://www.google.co.uk"
 
 **tailbreak** is a ultra lightweight (80 loc!) utility that let's you detect which tailwind breakpoint you are in based on your configuration file. It supports all the custom screen breakpoints from the tailwind documentation. It has no dependencies, other than the reccomended resolveConfig which already comes with tailwind.
 
+{{< info >}}
+  All this text will appear in an info box, because it is so very important
+{{< /info >}}
+
+{{< important >}}
+  This info is extremely important, hence why it's in this box.
+{{< /important >}}
+
+{{< idea >}}
+  This box is for showing or displaying an idea
+{{< /idea >}}
+
+{{< link "https://www.google.co.uk" >}}
+
+If you wan't you can link unsplash images really easily.
+
+{{< unsplash "laptop.jpg" "Joshua Reddekopp" "https://unsplash.com/photos/SyYmXSDnJ54" >}}
+
 ## Getting Started
 
 To install in your project / web application
