@@ -1,0 +1,15 @@
+<a href={{.Permalink}}>
+  <div
+    class="py-3 px-2 pl-4 text-gray-600 hover:text-gray-900 my-4 transition duration-300 ease-in-out transform bg-white border-l-4 border-yellow-400 hover:border-yellow-500 shadow-md rounded-r-md hover:shadow-xl hover:-translate-y-0.5">
+    <div class="text-3xl font-semibold xl:text-2xl">
+      {{.Title}}
+    </div>
+    <div>
+      {{.Params.description | truncate 130}}
+    </div>
+    <div class="flex items-center justify-between">
+      {{partial "projects/status" . }}
+      {{partial "projects/quicklinks" .}}
+    </div>
+  </div>
+</a>

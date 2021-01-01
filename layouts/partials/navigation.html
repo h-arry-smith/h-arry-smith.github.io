@@ -1,0 +1,28 @@
+<div class="flex w-full mt-4 -mb-2 text-right bg-white lg:bg-opacity-0 sm:text-xl lg:text-2xl lg:flex-col">
+  {{ $current := . }}
+  {{ range .Site.Menus.main }}
+
+  {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+  {{ $active = or $active (eq .Name $current.Title) }}
+  {{ $active = or $active (and (eq .Name "Articles") (eq $current.Section "articles")) }}
+
+  <div
+    class="py-4 lg:py-2 lg:pr-4 w-full lg:w-auto px-1 lg:border-r-2 border-b-2 lg:border-b-0 {{ if $active }} font-semibold border-gray-800{{ end }} hover:font-semibold ease-in-out duration-300"
+    style="transition-property: font-weight;">
+    <a href="{{.URL}}">
+      <div class="flex lg:justify-end">
+        <div class="hidden mx-4 md:block">
+          {{ .Pre }}
+        </div>
+        <div class="mx-auto tracking-wider text-center md:mx-0">
+          {{ .Name }}
+        </div>
+        <div>
+          {{ .Post }}
+        </div>
+      </div>
+    </a>
+  </div>
+
+  {{ end }}
+</div>

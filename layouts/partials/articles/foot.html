@@ -1,0 +1,11 @@
+<div class="my-10">
+  <hr>
+  <div class="lg:w-5/6">
+    <h2 class="text-xl text-gray-800 ">Looking for more? Have a read of these...</h2>
+    {{ $filteredPosts := where (where .Site.RegularPages "Type" "articles") "UniqueID" "!= " .UniqueID}}
+    {{ $randomPosts := shuffle $filteredPosts | first 3}}
+    {{ range $randomPosts }}
+    {{ .Render "card" }}
+    {{ end }}
+  </div>
+</div>

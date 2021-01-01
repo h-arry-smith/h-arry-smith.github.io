@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="hugodown">
+  {{.Content}}
+</div>
+
+<!-- List Layout -->
+<div class="max-w-3xl mx-auto -mt-5 xl:mx-0">
+  {{ range .Pages }}
+  {{.Render .Params.projectSize}}
+  {{ end }}
+</div>
+
+{{ end }}

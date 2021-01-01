@@ -1,0 +1,54 @@
+baseURL = "https://h-arry-smith.github.io/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -100
+    pre = "🏠"
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -90
+    pre = "👨‍💻"
+  [[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/articles/"
+    weight = -80
+    pre = "📕"
+  [[menu.main]]
+    identifier = "tutorials"
+    name = "Tutorials"
+    url = "/tutorials/"
+    weight = -70
+    pre = "👨‍🏫"
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = -60
+    pre = "⚙️"
+  [[menu.main]]
+    identifier = "now"
+    name = "Now"
+    url = "/now/"
+    weight = -50
+    pre = "📆"

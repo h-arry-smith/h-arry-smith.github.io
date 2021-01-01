@@ -1,0 +1,86 @@
+/* Opinionated mobile-first text styling as starting point for using Tailwind in your
+   Hugo projects */
+
+/* TODO: Table Styling */
+
+/* Universal Styling */
+.hugodown strong {
+  @apply font-bold;
+}
+
+.hugodown em {
+  @apply italic;
+}
+
+.hugodown hr {
+  @apply my-6;
+}
+
+/* Code Styling */
+.hugodown .highlight {
+  @apply my-10 overflow-hidden font-semibold tracking-wide rounded-md shadow-lg;
+}
+
+.hugodown .highlight pre {
+  @apply p-4;
+}
+
+/* Header Styling */
+
+.hugodown h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply my-6 font-bold leading-tight text-gray-900;
+}
+
+.hugodown h1 {
+  @apply pb-4 text-5xl;
+}
+
+.hugodown h2 {
+  @apply text-4xl;
+}
+
+.hugodown h3 {
+  @apply text-3xl;
+}
+
+.hugodown h4 {
+  @apply text-2xl;
+}
+
+.hugodown h5 {
+  @apply text-lg;
+}
+
+.hugodown h6 {
+  @apply text-base;
+}
+
+/* Link Styling */
+
+.hugodown a {
+  @apply text-blue-700 underline;
+}
+
+/* Paragraph Styling */
+.hugodown p {
+  @apply font-serif text-2xl leading-normal tracking-wide;
+}
+
+/* List Styling */
+.hugodown ul {
+  @apply ml-2 list-disc list-inside;
+}
+
+.hugodown ol {
+  @apply ml-2 list-decimal list-inside;
+}
+
+/* Block Quote Styling */
+.hugodown blockquote {
+  @apply p-4 mx-1 my-10 text-gray-900 bg-white border-l-8 border-yellow-400 shadow-md rounded-r-md;
+}

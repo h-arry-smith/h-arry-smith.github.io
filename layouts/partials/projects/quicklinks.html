@@ -1,0 +1,23 @@
+<div class="flex">
+  {{if (isset .Params "github")}}
+  <a href="{{.Params.github}}">
+    <div class="w-10 h-10 mx-2 text-gray-600 transition duration-200 ease-in-out xl:w-8 xl:h-8 hover:text-green-700">
+      {{ partial "icons/github" . }}
+    </div>
+  </a>
+  {{end}}
+  {{if (isset .Params "npm")}}
+  <a href="{{.Params.npm}}">
+    <div class="w-10 h-10 mx-2 text-gray-600 transition duration-200 ease-in-out xl:w-8 xl:h-8 hover:text-red-700">
+      {{ partial "icons/npm" . }}
+    </div>
+  </a>
+  {{end}}
+  {{if (isset .Params "website")}}
+  <a href="{{.Params.website}}">
+    <div class="w-10 h-10 mx-2 text-gray-600 transition duration-200 ease-in-out xl:w-8 xl:h-8 hover:text-blue-700">
+      {{ partial "icons/web" }}
+    </div>
+  </a>
+  {{end}}
+</div>

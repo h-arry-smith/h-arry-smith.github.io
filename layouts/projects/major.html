@@ -1,0 +1,21 @@
+<a href={{.Permalink}}>
+
+  <div
+    class="text-gray-600 hover:text-gray-900 my-4 transition duration-300 ease-in-out transform bg-white border-b-4 border-yellow-400 hover:border-yellow-500 shadow-md rounded-t-md overflow-hidden hover:shadow-xl hover:-translate-y-0.5">
+    <div class="overflow-hidden sm:max-h-60">
+      <img class="mx-auto" src="{{.Params.mainImage}}" />
+    </div>
+    <div class="px-2 py-3 pl-4 bg-white">
+      <div class="text-3xl font-semibold">
+        {{.Title}}
+      </div>
+      <div>
+        {{.Params.description | truncate 130}}
+      </div>
+      <div class="flex items-center justify-between">
+        {{partial "projects/status" . }}
+        {{partial "projects/quicklinks" .}}
+      </div>
+    </div>
+  </div>
+</a>
