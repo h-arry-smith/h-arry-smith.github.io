@@ -73,11 +73,11 @@ h6 {
 
 /* List Styling */
 .hugodown ul {
-  @apply ml-2 list-disc list-inside;
+  @apply ml-6 font-serif text-2xl leading-normal tracking-wide list-disc list-inside;
 }
 
 .hugodown ol {
-  @apply ml-2 list-decimal list-inside;
+  @apply ml-6 font-serif text-2xl leading-normal tracking-wide list-decimal list-inside;
 }
 
 /* Block Quote Styling */

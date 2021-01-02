@@ -31303,15 +31303,25 @@ video {
 /* List Styling */
 
 .hugodown ul {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 1.5;
   list-style-position: inside;
   list-style-type: disc;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
+  letter-spacing: 0.025em;
 }
 
 .hugodown ol {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 1.5;
   list-style-position: inside;
   list-style-type: decimal;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
+  letter-spacing: 0.025em;
 }
 
 /* Block Quote Styling */

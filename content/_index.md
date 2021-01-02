@@ -6,10 +6,10 @@ draft: true
 
 # Hey, I'm Harry. 
 
-I'm really excited about modern web development and applications. I'm collecting everything I've learned and everything I'm making here, so I can share it with **you**.
+I'm excited about modern web development and applications. I'm collecting everything I've learned and everything I'm making here, so I can share it with **you**.
 \
 \
-You can read about my journey from _roadie_ to **developer** [here.](/about)
+You can read about my journey and what I'm excited about [here.](/about)
 \
 \
 Get a load of what I'm doing right [now.](/now)
