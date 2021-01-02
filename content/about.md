@@ -1,10 +1,10 @@
 ---
 title: "About"
 date: 2020-12-29T11:28:15Z
-draft: true
+draft: false
 ---
 
-# About Page
+# About me.
 
 :wave: Hey, I'm Harry. I'm one of a triplet living in the south of the UK.  
 \
@@ -16,7 +16,7 @@ As you might of guessed, **2020** threw my life to the dogs.
 \
 Not content with waiting for the music to play, I'm building a new future one brick at a time.  
 \
-Software and web technology can transform lives. I am fascinated by this. I'm using this rare opportunity to immerse myself in development.
+Software and web technology can transform lives. I am fascinated by this. I'm using this rare opportunity to immerse myself in development.  
 \
 I love to explore new ideas, challenges and hobbies. You can see what I'm up to [now](/now), but here's what gets me out of bed every morning:
   * Planning expeditions to cultures and places that challenge my values
