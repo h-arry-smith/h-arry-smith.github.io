@@ -15,6 +15,9 @@ enableEmoji = true
     noClasses = true
     style = "monokai"
     tabWidth = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
   [[menu.main]]

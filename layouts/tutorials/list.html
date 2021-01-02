@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="hugodown">
+  {{.Content}}
+</div>
+
+<div class="">
+  {{ range .Sections }}
+
+  <div class="-mb-2">
+    <h2 class="text-3xl">{{.Title}}</h2>
+  </div>
+
+  <section>
+    {{ range .Pages.Reverse}}
+
+    <section>
+      {{.Render "card"}}
+    </section>
+
+    {{ end }}
+  </section>
+
+  {{ end }}
+</div>
+
+{{ end }}

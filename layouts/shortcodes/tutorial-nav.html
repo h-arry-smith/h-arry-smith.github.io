@@ -1,0 +1,28 @@
+<div class="p-4 mt-6">
+  {{ $prev := .Get 1}}
+  {{ $next := .Get 0}}
+
+  {{ if .Get "prev"}}
+  {{ with .Site.GetPage (.Get "prev") }}
+  <a style="text-decoration: none !important;" href="{{.Permalink}}">
+    <div class="text-left text-gray-500 transition duration-200 transform hover:text-gray-800 hover:-translate-x-2">
+      <h4 class="m-0"> Previous Part &leftarrow; </h4>
+      <span class="text-lg">{{.Title}}</span>
+    </div>
+  </a>
+  {{ end }}
+  {{ end }}
+
+  <hr>
+
+  {{ if .Get "next"}}
+  {{ with .Site.GetPage (.Get "next") }}
+  <a style="text-decoration: none !important;" href="{{.Permalink}}">
+    <div class="text-right text-gray-500 transition duration-200 transform hover:text-gray-800 hover:translate-x-2">
+      <h4 class="m-0"> Next Part &rightarrow; </h4>
+      <span class="text-lg">{{.Title}}</span>
+    </div>
+  </a>
+  {{ end }}
+  {{ end }}
+</div>
