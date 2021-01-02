@@ -16,8 +16,8 @@ Get a load of what I'm doing right [now.](/now)
 
 ## :pencil2: Most Recent Article
 
-{{< article-preview "development-article-one.md" >}}
+{{< article-preview "your-body-is-designed-to-move.md" >}}
 
-## :gear: Featured Project
+<!-- ## :gear: Featured Project
 
-{{< project-feature "airphp.md" >}}
+{{< project-feature "airphp.md" >}} -->
