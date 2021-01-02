@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply my-6 font-bold leading-tight text-gray-900;
+  @apply my-6 font-bold leading-tight text-gray-800;
 }
 
 .hugodown h1 {
@@ -83,4 +83,15 @@ h6 {
 /* Block Quote Styling */
 .hugodown blockquote {
   @apply p-4 mx-1 my-10 text-gray-900 bg-white border-l-8 border-yellow-400 shadow-md rounded-r-md;
+}
+
+/* Footnote Styling */
+
+.hugodown ol>li[role="doc-endnote"]::marker {
+  display: inline-block;
+}
+
+.hugodown ol>li[role="doc-endnote"] p {
+  display: inline-block;
+  font-size: 1.2rem !important;
 }

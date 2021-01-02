@@ -3,7 +3,11 @@ module.exports = {
     content: ["./layouts/**/*.html", "./content/**/*.md", "./content/**/*.html"],
   },
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        '2xl': '1.45rem'
+      }
+    },
   },
   variants: {
     extend: {

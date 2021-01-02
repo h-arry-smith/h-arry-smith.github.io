@@ -11528,8 +11528,7 @@ video {
 }
 
 .text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.45rem;
 }
 
 .text-3xl {
@@ -31248,7 +31247,7 @@ video {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgba(17, 24, 39, var(--tw-text-opacity));
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 
 .hugodown h1 {
@@ -31268,8 +31267,7 @@ video {
 }
 
 .hugodown h4 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.45rem;
 }
 
 .hugodown h5 {
@@ -31294,8 +31292,7 @@ video {
 
 .hugodown p {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.45rem;
   line-height: 1.5;
   letter-spacing: 0.025em;
 }
@@ -31304,8 +31301,7 @@ video {
 
 .hugodown ul {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.45rem;
   line-height: 1.5;
   list-style-position: inside;
   list-style-type: disc;
@@ -31315,8 +31311,7 @@ video {
 
 .hugodown ol {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.45rem;
   line-height: 1.5;
   list-style-position: inside;
   list-style-type: decimal;
@@ -31343,6 +31338,17 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   --tw-text-opacity: 1;
   color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+/* Footnote Styling */
+
+.hugodown ol>li[role="doc-endnote"]::marker {
+  display: inline-block;
+}
+
+.hugodown ol>li[role="doc-endnote"] p {
+  display: inline-block;
+  font-size: 1.2rem !important;
 }
 
 @media (min-width: 640px) {
@@ -42328,8 +42334,7 @@ video {
   }
 
   .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.45rem;
   }
 
   .sm\:text-3xl {
@@ -72908,8 +72913,7 @@ video {
   }
 
   .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.45rem;
   }
 
   .md\:text-3xl {
@@ -103488,8 +103492,7 @@ video {
   }
 
   .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.45rem;
   }
 
   .lg\:text-3xl {
@@ -134068,8 +134071,7 @@ video {
   }
 
   .xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.45rem;
   }
 
   .xl\:text-3xl {
@@ -164648,8 +164650,7 @@ video {
   }
 
   .\32xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.45rem;
   }
 
   .\32xl\:text-3xl {
