@@ -8,104 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Smallutil</title>
-      <link>https://h-arry-smith.github.io/projects/smallutil/</link>
-      <pubDate>Fri, 01 Jan 2021 10:08:43 +0000</pubDate>
+      <title>Your body knows how to move. So move it.</title>
+      <link>https://h-arry-smith.github.io/articles/your-body-is-designed-to-move/</link>
+      <pubDate>Sat, 02 Jan 2021 11:47:35 +0000</pubDate>
       
-      <guid>https://h-arry-smith.github.io/projects/smallutil/</guid>
-      <description>Small util </description>
-    </item>
-    
-    <item>
-      <title>Airphp</title>
-      <link>https://h-arry-smith.github.io/projects/airphp/</link>
-      <pubDate>Fri, 01 Jan 2021 10:08:32 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/projects/airphp/</guid>
-      <description>About The Project tailbreak is a ultra lightweight (80 loc!) utility that let&amp;rsquo;s you detect which tailwind breakpoint you are in based on your configuration file. It supports all the custom screen breakpoints from the tailwind documentation. It has no dependencies, other than the reccomended resolveConfig which already comes with tailwind.
-  All this text will appear in an info box, because it is so very important      This info is extremely important, hence why it&#39;s in this box.</description>
-    </item>
-    
-    <item>
-      <title>Spintrest</title>
-      <link>https://h-arry-smith.github.io/projects/spintrest/</link>
-      <pubDate>Fri, 01 Jan 2021 10:08:25 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/projects/spintrest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tinytent</title>
-      <link>https://h-arry-smith.github.io/projects/tinytent/</link>
-      <pubDate>Fri, 01 Jan 2021 10:08:22 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/projects/tinytent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Moogle</title>
-      <link>https://h-arry-smith.github.io/projects/moogle/</link>
-      <pubDate>Fri, 01 Jan 2021 10:08:16 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/projects/moogle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Farcebook</title>
-      <link>https://h-arry-smith.github.io/projects/farcebook/</link>
-      <pubDate>Fri, 01 Jan 2021 10:08:07 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/projects/farcebook/</guid>
-      <description>Farcebook </description>
-    </item>
-    
-    <item>
-      <title>Development Article Five</title>
-      <link>https://h-arry-smith.github.io/articles/five/</link>
-      <pubDate>Tue, 29 Dec 2020 13:51:22 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/articles/five/</guid>
-      <description>This is a subheading for the article two Magna gubergren sed sadipscing labore no sanctus tempor diam elitr aliquyam, amet sed rebum duo amet tempor at takimata kasd. No invidunt no nonumy sanctus kasd clita dolores sit, labore sadipscing sit takimata no elitr et amet et labore. Et vero ipsum duo invidunt stet. Dolore sit justo lorem dolores labore tempor et amet. Takimata et et diam duo tempor sit consetetur tempor.</description>
-    </item>
-    
-    <item>
-      <title>Development Article Four</title>
-      <link>https://h-arry-smith.github.io/articles/four/</link>
-      <pubDate>Tue, 29 Dec 2020 13:51:22 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/articles/four/</guid>
-      <description>This is a subheading for the article two Magna gubergren sed sadipscing labore no sanctus tempor diam elitr aliquyam, amet sed rebum duo amet tempor at takimata kasd. No invidunt no nonumy sanctus kasd clita dolores sit, labore sadipscing sit takimata no elitr et amet et labore. Et vero ipsum duo invidunt stet. Dolore sit justo lorem dolores labore tempor et amet. Takimata et et diam duo tempor sit consetetur tempor.</description>
-    </item>
-    
-    <item>
-      <title>Development Article One</title>
-      <link>https://h-arry-smith.github.io/articles/development-article-one/</link>
-      <pubDate>Tue, 29 Dec 2020 13:51:22 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/articles/development-article-one/</guid>
-      <description>Magna gubergren sed sadipscing labore no sanctus tempor diam elitr aliquyam, amet sed rebum duo amet tempor at takimata kasd. No invidunt no nonumy sanctus kasd clita dolores sit, labore sadipscing sit takimata no elitr et amet et labore. Et vero ipsum duo invidunt stet. Dolore sit justo lorem dolores labore tempor et amet.
-This is a subheading for the article one Takimata et et diam duo tempor sit consetetur tempor.</description>
-    </item>
-    
-    <item>
-      <title>Development Article Three</title>
-      <link>https://h-arry-smith.github.io/articles/three/</link>
-      <pubDate>Tue, 29 Dec 2020 13:51:22 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/articles/three/</guid>
-      <description>This is a subheading for the article two Magna gubergren sed sadipscing labore no sanctus tempor diam elitr aliquyam, amet sed rebum duo amet tempor at takimata kasd. No invidunt no nonumy sanctus kasd clita dolores sit, labore sadipscing sit takimata no elitr et amet et labore. Et vero ipsum duo invidunt stet. Dolore sit justo lorem dolores labore tempor et amet. Takimata et et diam duo tempor sit consetetur tempor.</description>
-    </item>
-    
-    <item>
-      <title>Development Article Two</title>
-      <link>https://h-arry-smith.github.io/articles/development-article-two/</link>
-      <pubDate>Tue, 29 Dec 2020 13:51:22 +0000</pubDate>
-      
-      <guid>https://h-arry-smith.github.io/articles/development-article-two/</guid>
-      <description>This is a subheading for the article two Magna gubergren sed sadipscing labore no sanctus tempor diam elitr aliquyam, amet sed rebum duo amet tempor at takimata kasd. No invidunt no nonumy sanctus kasd clita dolores sit, labore sadipscing sit takimata no elitr et amet et labore. Et vero ipsum duo invidunt stet. Dolore sit justo lorem dolores labore tempor et amet. Takimata et et diam duo tempor sit consetetur tempor.</description>
+      <guid>https://h-arry-smith.github.io/articles/your-body-is-designed-to-move/</guid>
+      <description>Every new year, this year more than most, we ruminate on the future. For many, this means another yearly attempt at building exercise into their routines.
+Often, they fail. I failed every year from 2010 to 2019.
+Personal fitness has become a poisoned well of mis-information and cash-grabs. Information is either outdated, complex or designed to mislead you. Gyms leech your finances, paying for equipment you don&amp;rsquo;t understand and don&amp;rsquo;t need.</description>
     </item>
     
     <item>
@@ -114,7 +24,11 @@ This is a subheading for the article one Takimata et et diam duo tempor sit cons
       <pubDate>Tue, 29 Dec 2020 11:28:56 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/now/</guid>
-      <description>Now Page </description>
+      <description>now. I’m currently working on the CodeCademy Full Stack Developer career path. I&amp;rsquo;m getting distracted along the way.
+I’m focused on building out this website, and making it useful.
+I’m reading The Pragmatic Programmer by Andrew Hunt and David Thomas.
+I’m learning all about leather craft at the moment. I’ve been making wallets over and over.
+I can’t go climbing at the moment, but as soon as I can, I’ll be down the wall as much as possible.</description>
     </item>
     
     <item>
@@ -123,7 +37,18 @@ This is a subheading for the article one Takimata et et diam duo tempor sit cons
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/about/</guid>
-      <description>About Page </description>
+      <description>About me. 👋 Hey, I&amp;rsquo;m Harry. I&amp;rsquo;m one of a triplet living in the south of the UK.
+I&amp;rsquo;ve got a 1st Class BA Hons in Professional Production Skills from the University of Surrey. For the many who won&amp;rsquo;t know; it&amp;rsquo;s a degree on how build and design live entertainment and theatre.
+Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. Touring arena &amp;amp; stadium music concerts and big one-off events.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://h-arry-smith.github.io/contact/</link>
+      <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/contact/</guid>
+      <description>Get in touch. ✉️ #span-af3c0624.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-af3c0624&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>

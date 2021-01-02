@@ -3,73 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://h-arry-smith.github.io/projects/smallutil/</loc>
-    <lastmod>2021-01-01T10:08:43+00:00</lastmod>
+    <loc>https://h-arry-smith.github.io/articles/your-body-is-designed-to-move/</loc>
+    <lastmod>2021-01-02T11:47:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://h-arry-smith.github.io/projects/airphp/</loc>
-    <lastmod>2021-01-01T10:08:32+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/projects/spintrest/</loc>
-    <lastmod>2021-01-01T10:08:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/projects/tinytent/</loc>
-    <lastmod>2021-01-01T10:08:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/projects/moogle/</loc>
-    <lastmod>2021-01-01T10:08:16+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/projects/farcebook/</loc>
-    <lastmod>2021-01-01T10:08:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/tags/better/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/articles/five/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/articles/four/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/articles/development-article-one/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/articles/three/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/articles/development-article-two/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/tags/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://h-arry-smith.github.io/tags/test/</loc>
-    <lastmod>2020-12-29T13:51:22+00:00</lastmod>
+    <loc>https://h-arry-smith.github.io/tutorials/general/</loc>
+    <lastmod>2021-01-02T10:06:21+00:00</lastmod>
   </url>
   
   <url>
@@ -98,12 +38,21 @@
   </url>
   
   <url>
+    <loc>https://h-arry-smith.github.io/contact/</loc>
+    <lastmod>2020-12-29T11:28:15+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://h-arry-smith.github.io/</loc>
     <lastmod>2020-12-29T11:03:23+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://h-arry-smith.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://h-arry-smith.github.io/tags/</loc>
   </url>
   
 </urlset>
