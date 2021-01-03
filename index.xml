@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Harry Smith | Web Developer on My New Hugo Site</title>
     <link>https://h-arry-smith.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content in Harry Smith | Web Developer on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -70,7 +70,7 @@ Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. 
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/contact/</guid>
-      <description>Get in touch. ✉️ #span-75b3e626.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-75b3e626&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+      <description>Get in touch. ✉️ #span-b92f41f0.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-b92f41f0&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>
