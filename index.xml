@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tailbreak</title>
+      <link>https://h-arry-smith.github.io/projects/tailbreak/</link>
+      <pubDate>Sun, 03 Jan 2021 09:15:13 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/tailbreak/</guid>
+      <description>About The Project tailbreak is a ultra lightweight (80 loc!) utility that let&amp;rsquo;s you detect which tailwind breakpoint you are in based on your configuration file. It supports all the custom screen breakpoints from the tailwind documentation. It has no dependencies, other than the reccomended resolveConfig which already comes with tailwind.
+Getting Started To install in your project / web application
+1  npm install tailbreak   Example Code 1 2 3 4 5 6 7 8  import Tailbreak from &amp;#39;tailbreak&amp;#39;; const tb = Tailbreak(); if (tb.</description>
+    </item>
+    
+    <item>
+      <title>RedditView</title>
+      <link>https://h-arry-smith.github.io/projects/reddit-view/</link>
+      <pubDate>Sun, 03 Jan 2021 09:15:05 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/reddit-view/</guid>
+      <description>RedditView is a minimal React/Redux reddit viewer, using the reddit JSON API. This project has been built for the CodeCademy Full Stack Career Path, as part of the portfolio projects.
+You can view this project live on Github Pages
+Learning Aims  Create a self directed project, making design and implementation decision independantly, and understanding their advantages and trade offs. Adhere to best practices to the best of my ability Experiment with unit, integration and end to end testing Use git &amp;amp; github projects to manage the development process Create a beautiful, interactive, mobile-first design using TailwindCSS  Technology  React 17 Redux 7 React-Router v5 TailwindCSS 2.</description>
+    </item>
+    
+    <item>
       <title>Your body knows how to move. So move it.</title>
       <link>https://h-arry-smith.github.io/articles/your-body-is-designed-to-move/</link>
       <pubDate>Sat, 02 Jan 2021 11:47:35 +0000</pubDate>
@@ -37,7 +59,7 @@ I can’t go climbing at the moment, but as soon as I can, I’ll be down the wa
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/about/</guid>
-      <description>About me. 👋 Hey, I&amp;rsquo;m Harry. I&amp;rsquo;m one of a triplet living in the south of the UK.
+      <description>About Me. 👋 Hey, I&amp;rsquo;m Harry. I&amp;rsquo;m one of a triplet living in the south of the UK.
 I&amp;rsquo;ve got a 1st Class BA Hons in Professional Production Skills from the University of Surrey. For the many who won&amp;rsquo;t know; it&amp;rsquo;s a degree on how build and design live entertainment and theatre.
 Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. Touring arena &amp;amp; stadium music concerts and big one-off events.</description>
     </item>
@@ -48,7 +70,7 @@ Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. 
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/contact/</guid>
-      <description>Get in touch. ✉️ #span-6f60a366.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-6f60a366&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+      <description>Get in touch. ✉️ #span-c4fee052.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-c4fee052&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>
