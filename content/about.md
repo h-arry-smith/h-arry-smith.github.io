@@ -4,7 +4,7 @@ date: 2020-12-29T11:28:15Z
 draft: false
 ---
 
-# About me.
+# About Me.
 
 :wave: Hey, I'm Harry. I'm one of a triplet living in the south of the UK.  
 \
