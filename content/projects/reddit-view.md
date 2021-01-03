@@ -5,11 +5,11 @@ draft: false
 description: "Portfolio Project from CodeCademy Full Stack Developer - Create a React SPA that uses the JSON API for reddit. Includes subreddit pages, search, top-level comments and special handling of post types."
 status: "released"
 projectSize: "minor"
-mainImage: "/projects/reddit-view/main.png"
+mainImage: "/projects/reddit-view/main.jpg"
 screenshots:
-  - "/projects/reddit-view/desktop.png"
-  - "/projects/reddit-view/detail-view.png"
-  - "/projects/reddit-view/search.png"
+  - "/projects/reddit-view/desktop.jpg"
+  - "/projects/reddit-view/detail-view.jpg"
+  - "/projects/reddit-view/search.jpg"
 
 github: "https://github.com/h-arry-smith/reddit-view"
 website: "https://h-arry-smith.github.io/reddit-view/"
