@@ -1,7 +1,7 @@
 ---
 title: "RedditView"
 date: 2021-01-03T09:15:05Z
-draft: true
+draft: false
 description: "Portfolio Project from CodeCademy Full Stack Developer - Create a React SPA that uses the JSON API for reddit. Includes subreddit pages, search, top-level comments and special handling of post types."
 status: "released"
 projectSize: "minor"
@@ -11,7 +11,8 @@ screenshots:
   - "/projects/reddit-view/detail-view.png"
   - "/projects/reddit-view/search.png"
 
-github: "https://www.github.com"
+github: "https://github.com/h-arry-smith/reddit-view"
+website: "https://h-arry-smith.github.io/reddit-view/"
 ---
 
 RedditView is a minimal React/Redux reddit viewer, using the reddit JSON API. This project has been built for the CodeCademy Full Stack Career Path, as part of the portfolio projects.

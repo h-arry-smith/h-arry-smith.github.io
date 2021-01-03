@@ -23,7 +23,7 @@
         {{ if isset .Params "github"}}
         <a href={{.Params.github}}>
           <div class="flex items-center">
-            <div class="w-6 h-6 text-gray-500">
+            <div class="w-6 h-6 text-gray-600">
               {{partial "icons/github" .}}
             </div>
             <div class="ml-2 font-mono font-medium tracking-wide hover:underline">
@@ -35,7 +35,7 @@
         {{ if isset .Params "npm"}}
         <a href={{.Params.npm}}>
           <div class="flex items-center mt-2">
-            <div class="w-6 h-6 text-gray-500">
+            <div class="w-6 h-6 text-gray-600">
               {{partial "icons/npm" .}}
             </div>
             <div class="ml-2 font-mono font-medium tracking-wide hover:underline">
@@ -46,8 +46,8 @@
         {{ end }}
         {{ if isset .Params "website"}}
         <a href={{.Params.website}}>
-          <div class="flex items-center mt-2">
-            <div class="w-6 h-6">
+          <div class="flex items-center mt-2 ">
+            <div class="w-6 h-6 text-gray-600">
               {{partial "icons/web" .}}
             </div>
             <div class="ml-2 font-mono font-medium tracking-wide hover:underline">

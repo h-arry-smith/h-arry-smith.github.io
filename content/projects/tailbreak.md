@@ -1,7 +1,7 @@
 ---
 title: "Tailbreak"
 date: 2021-01-03T09:15:13Z
-draft: true
+draft: false
 description: "A lightweight utility library to detect the current window breakpoints, using your tailbreak configuration file."
 status: "released"
 projectSize: "minor"
