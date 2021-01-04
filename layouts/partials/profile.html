@@ -1,3 +1,11 @@
+{{ if eq .size "large"}}
 <div class="w-56 h-56 overflow-hidden rounded-full shadow-md">
   <img class="object-cover" src="/profile.jpg" alt="harry smith" />
 </div>
+{{ end }}
+
+{{ if eq .size "small"}}
+<div class="w-10 h-10 overflow-hidden rounded-full shadow-md">
+  <img class="object-cover" src="/profile.jpg" alt="harry smith" />
+</div>
+{{ end }}
