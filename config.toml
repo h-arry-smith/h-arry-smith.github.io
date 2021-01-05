@@ -61,7 +61,7 @@ enableEmoji = true
     pre = "📆"
     [[menu.main]]
     identifier = "estimate"
-    name = "Get a Estimate"
+    name = "Get an Estimate"
     url = "/estimate/"
     weight = -40
     pre = ""
