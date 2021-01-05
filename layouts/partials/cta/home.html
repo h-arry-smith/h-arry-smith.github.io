@@ -1,0 +1,111 @@
+<script type="text/javascript">
+  var submitted = false;
+
+  window.addEventListener('load', () => {
+    document.getElementById('animate-in').classList.remove('translate-x-48');
+    document.getElementById('animate-in').classList.remove('opacity-0');
+    document.getElementById('animate-in2').classList.remove('translate-x-48');
+    document.getElementById('animate-in2').classList.remove('opacity-0');
+    document.getElementById('animate-in3').classList.remove('translate-x-48');
+    document.getElementById('animate-in3').classList.remove('opacity-0');
+    document.getElementById('animate-in4').classList.remove('translate-x-48');
+    document.getElementById('animate-in4').classList.remove('opacity-0');
+    document.getElementById('animate-in5').classList.remove('opacity-0');
+    document.getElementById('animate-in6').classList.remove('opacity-0');
+  })
+
+  const onSubmit = () => {
+    submitted = true;
+    let button = document.getElementById('gform-submit');
+    console.log('beep');
+    button.disabled = true;
+    button.value = 'Submitted!'
+    button.classList =
+      'w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto';
+  }
+</script>
+
+<div class="h-auto px-4 pt-2 pb-6 mb-4 -mt-8 text-white shadow-2xl from-black to-indigo-900 bg-gradient-to-tr">
+  <a href="#hey-im-harry">
+    <div class="flex justify-center font-semibold text-center ">
+      <div class="hover:underline">
+        Looking for more?
+      </div>
+      <div class="mt-1 ml-2 animate-bounce">
+        <span>&downarrow;</span>
+      </div>
+    </div>
+  </a>
+
+  <div class="mx-auto mt-8 md:w-2/3">
+    <form
+      action="https://docs.google.com/forms/d/e/1FAIpQLSdwDnpaw8Wz5D7sEgmP46q1qsZhBoYs74qYkSmOAXOgwIudFg/formResponse?"
+      target="hidden_iframe" onsubmit="onSubmit()" name="gfrom" id="gform">
+      <div class="text-5xl leading-snug md:text-3xl">
+
+        <div id="animate-in" class="transition transform translate-x-48 opacity-0 left-full"
+          style="transition-duration: 2000ms;">
+          <span>Hi, Harry. I'm</span>
+          <span>
+            <input name="entry.840288726" id="entry.840288726"
+              class="inline-block w-full px-4 mt-2 bg-black border border-white rounded-lg appearance-none bg-opacity-20"
+              type="text" placeholder="Your name...">
+          </span>
+        </div>
+
+        <div id="animate-in2" class="mt-2 transition delay-100 transform translate-x-48 opacity-0 left-full"
+          style="transition-duration: 2500ms;">
+          <span>
+            Can you get me an estimate for?
+          </span>
+        </div>
+      </div>
+
+      <div id="animate-in3" class="mt-2 transition delay-200 transform translate-x-48 opacity-0 left-full"
+        style="transition-duration: 2500ms;">
+        <textarea name="entry.1713578503" id="entry.1713578503"
+          class="w-full p-4 bg-black border border-white rounded-lg bg-opacity-20" rows="5"
+          placeholder="I'm excited to hear about your project! Tell me what your looking for and I'll get back to you."></textarea>
+      </div>
+
+      <div id="animate-in4"
+        class="mt-2 text-5xl transition delay-300 transform translate-x-48 opacity-0 md:text-3xl left-full"
+        style="transition-duration: 2500ms;">
+        <span>You can get hold of me at:</span>
+        <input name="entry.881014309" id="entry.881014309"
+          class="inline-block w-full px-4 mt-2 bg-black border border-white rounded-lg appearance-none bg-opacity-20"
+          type="text" placeholder="Your email...">
+      </div>
+
+      <div id="animate-in5" class="mt-2 text-5xl transition delay-700 transform opacity-0 md:text-3xl left-full"
+        style="transition-duration: 2500ms;">
+        <div class="flex justify-center w-full mt-4">
+          <input type="submit"
+            class="w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto hover:text-white hover:bg-opacity-100 hover:shadow-xl"
+            Value="Get an estimate." id="gform-submit">
+        </div>
+      </div>
+
+      <div id="animate-in6" class="mt-2 text-5xl transition delay-1000 transform opacity-0 md:text-3xl left-full"
+        style="transition-duration: 2500ms;">
+        <div class="mt-8 lg:flex">
+          <div class="hidden border-r border-white lg:block lg:w-1/2">
+            <p class="text-4xl">Get the website you've always needed.</p>
+          </div>
+          <div class="text-2xl text-right lg:w-1/2">
+            <div class="ml-4">
+              <a href="#" class="block transition duration-500 transform hover:underline hover:translate-x-2">
+                How it Works. &rightarrow;
+              </a>
+              <a href="#" class="block mt-4 transition duration-500 transform hover:underline hover:translate-x-2">
+                Why free website builders will cost you thousands. &rightarrow;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </form>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+  </div>
+</div>
