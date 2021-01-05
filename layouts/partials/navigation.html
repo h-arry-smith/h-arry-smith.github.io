@@ -15,7 +15,7 @@
           {{ .Pre }}
         </div>
         <div class="mx-auto tracking-wider text-center md:mx-0">
-          {{ .Name }}
+          {{ .Name | safeHTML }}
         </div>
         <div>
           {{ .Post }}
