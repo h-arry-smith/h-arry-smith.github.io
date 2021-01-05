@@ -25,7 +25,10 @@
 </head>
 
 <body class="subpixel-antialiased text-gray-800 bg-gray-100">
+  <!-- Call to Action Banner -->
+  {{block "cta" .}}{{end}}
   <div class="container w-full mx-auto">
+
     <!-- Header -->
     {{ partial "header/header" .}}
 
@@ -36,8 +39,6 @@
       </div>
     </div>
 
-    <!-- Call to Action Banner -->
-    {{block "cta" .}}{{end}}
 
     <!--Layout-->
     <div class="flex justify-center mx-auto md:px-8 lg:px-0 lg:w-11/12 xl:w-9/12">
