@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Screenwind</title>
+      <link>https://h-arry-smith.github.io/projects/screenwind/</link>
+      <pubDate>Tue, 05 Jan 2021 11:25:13 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/screenwind/</guid>
+      <description>Screenwind is a command line tool that automatically creates screenshots using the default tailwind breakpoints. I built this utitlity to practice developing CLI and for usage with clients as I use tailwind a lot.
+Installation Download and install globally using:
+1  node install . -g   Dependencies  Chalk ^4.1.0 Puppeteer ^5.5.0 Yargs ^16.2.0  Usage 1  screenwind https://www.google.co.uk   By default it will output the .</description>
+    </item>
+    
+    <item>
       <title>Tailbreak</title>
       <link>https://h-arry-smith.github.io/projects/tailbreak/</link>
       <pubDate>Sun, 03 Jan 2021 09:15:13 +0000</pubDate>
@@ -70,7 +81,7 @@ Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. 
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/contact/</guid>
-      <description>Get in touch. ✉️ #span-9dbea5b0.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-9dbea5b0&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+      <description>Get in touch. ✉️ #span-9114a5a4.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-9114a5a4&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>

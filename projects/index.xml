@@ -8,6 +8,17 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:28:31 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Screenwind</title>
+      <link>https://h-arry-smith.github.io/projects/screenwind/</link>
+      <pubDate>Tue, 05 Jan 2021 11:25:13 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/screenwind/</guid>
+      <description>Screenwind is a command line tool that automatically creates screenshots using the default tailwind breakpoints. I built this utitlity to practice developing CLI and for usage with clients as I use tailwind a lot.
+Installation Download and install globally using:
+1  node install . -g   Dependencies  Chalk ^4.1.0 Puppeteer ^5.5.0 Yargs ^16.2.0  Usage 1  screenwind https://www.google.co.uk   By default it will output the .</description>
+    </item>
+    
+    <item>
       <title>Tailbreak</title>
       <link>https://h-arry-smith.github.io/projects/tailbreak/</link>
       <pubDate>Sun, 03 Jan 2021 09:15:13 +0000</pubDate>
