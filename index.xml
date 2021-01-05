@@ -8,6 +8,26 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Get an Estimate</title>
+      <link>https://h-arry-smith.github.io/estimate/</link>
+      <pubDate>Tue, 05 Jan 2021 15:27:54 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/estimate/</guid>
+      <description>var submitted = false; const onSubmit = () = { submitted = true; let button = document.getElementById(&#39;gform-submit&#39;); console.log(&#39;beep&#39;); button.disabled = true; button.value = &#39;Submitted!&#39; button.classList = &#39;w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto&#39;; }   Hi, Harry. I&#39;m  Can you get me an estimate for?     You can get hold of me at:      Get the website you&#39;ve always needed.</description>
+    </item>
+    
+    <item>
+      <title>Free Website Builders cost a lot more than their Price Tag</title>
+      <link>https://h-arry-smith.github.io/articles/free-website-builders-will-cost-you-more/</link>
+      <pubDate>Tue, 05 Jan 2021 14:46:04 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/articles/free-website-builders-will-cost-you-more/</guid>
+      <description>I&#39;m currently accepting projects, get in touch for an estimate &amp;rightarrow;     Customers first point of contact with your business is more and more likely to be your website.
+If you&amp;rsquo;ve been looking at getting a new website for your business or project you know they aren&amp;rsquo;t cheap.
+Costs range from anywhere from a few hundred to a few thousand pounds. Website builders seem an attractive option for cost conscious business owners.</description>
+    </item>
+    
+    <item>
       <title>Screenwind</title>
       <link>https://h-arry-smith.github.io/projects/screenwind/</link>
       <pubDate>Tue, 05 Jan 2021 11:25:13 +0000</pubDate>
@@ -81,7 +101,7 @@ Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. 
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/contact/</guid>
-      <description>Get in touch. ✉️ #span-ca4f3d34.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-ca4f3d34&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+      <description>Get in touch. ✉️ #span-1764058e.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-1764058e&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>
