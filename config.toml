@@ -26,7 +26,7 @@ enableEmoji = true
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = "/#cta-bottom"
     weight = -100
     pre = "🏠"
   [[menu.main]]
@@ -59,3 +59,9 @@ enableEmoji = true
     url = "/now/"
     weight = -50
     pre = "📆"
+    [[menu.main]]
+    identifier = "estimate"
+    name = "Get a Estimate"
+    url = "/estimate/"
+    weight = -40
+    pre = ""
