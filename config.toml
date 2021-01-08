@@ -61,6 +61,6 @@ enableEmoji = true
     pre = "📆"
     [[menu.main]]
     identifier = "estimate"
-    name = "<span class='font-semibold text-indigo-400 transition duration-300 lg:text-4xl hover:text-indigo-500'>Get an Estimate</span>"
+    name = "<span class='hidden font-semibold text-indigo-400 transition duration-300 lg:inline-block lg:text-4xl hover:text-indigo-500'>Get an Estimate</span>"
     url = "/estimate/"
     weight = -40
