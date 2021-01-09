@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{.Title}}</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  {{ $styles := resources.Get "css/main.css" }}
+  {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}
+
+  {{ if hugo.IsProduction }}
+  {{ $styles = $styles | minify }}
+  {{ end }}
+
+  <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Harry Smith personal website. Web developer & writer. Articles on technology, productivity, fitness.">
+</head>
+
+<body class="subpixel-antialiased text-gray-800 bg-white">
+  {{/*  Small Header  */}}
+  <a class="" href="/">
+    <div class="flex items-center justify-center h-10 py-4 shadow-md bg-gradient-to-tl from-gray-900 to-gray-800">
+      <span class="text-xl font-semibold tracking-wide text-white transition-transform hover:scale-110 transform hover:-translate-y-0.5">Harry Smith<span class="text-yellow-400">.</span></span>
+    </div>
+  </a>
+
+  <div class="w-full mx-auto">
+    {{/*  Landing Intro Section  */}}
+    <div id="intro" class="relative h-screen md:pt-20 md:px-14 lg:px-24 lg:h-full">
+      <div class="p-4 lg:w-2/3 lg:mx-auto">
+        <h1 class="mt-6 text-6xl font-bold md:mt-0">Getting a website couldn't be easier.</h1>
+        <p class="mt-4 text-xl text-gray-700">Your customers web experience couldn't be more important in 2021. Hire a web developer who solves problems, not confuses them.</p>
+
+        <div class="flex-wrap justify-around hidden mt-12 sm:flex">
+          <div class="w-64 p-3 m-2">
+            <div class="w-24 h-24 mx-auto text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 24 24"><path d="M24 1h-24v16.981h4v5.019l7-5.019h13z"/></svg>
+            </div>
+            <p class="text-2xl font-semibold tracking-wide text-center">Card One</p>
+            <hr class="mb-2">
+            <p>Some description about card one selling why I am an excellent choice.</p>
+          </div>
+          <div class="w-64 p-3 m-2">
+            <div class="w-24 h-24 mx-auto text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 24 24"><path d="M24 1h-24v16.981h4v5.019l7-5.019h13z"/></svg>
+            </div>
+            <p class="text-2xl font-semibold tracking-wide text-center">Card Two</p>
+            <hr class="mb-2">
+            <p>Some description about card one selling why I am an excellent choice.</p>
+          </div>
+          <div class="w-64 p-3 m-2">
+            <div class="w-24 h-24 mx-auto text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" viewBox="0 0 24 24"><path d="M24 1h-24v16.981h4v5.019l7-5.019h13z"/></svg>
+            </div>
+            <p class="text-2xl font-semibold tracking-wide text-center">Card Three</p>
+            <hr class="mb-2">
+            <p>Some description about card one selling why I am an excellent choice.</p>
+          </div>
+        </div>
+        
+        <div class="absolute flex flex-col items-center justify-center text-right bottom-10 right-6 lg:static lg:mt-12">
+          <a href="#discovery">
+            <p class="text-2xl font-semibold tracking-wide text-yellow-500 lg:text-3xl hover:underline">Here's how it works</p> 
+            <p class="self-end mr-8 text-2xl font-bold lg:m-0 lg:text-center lg:animate-bounce lg:mt-2">&downarrow;</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="discovery" class="relative min-h-screen bg-red-500 lg:min-h-full lg:pb-8 sm:px-4">
+      <div class="p-4 sm:p-0">
+        <div class="font-semibold tracking-wider text-white uppercase sm:pt-12 sm:px-6 sm:mt-12 sm:text-lg lg:w-2/3 lg:mx-auto">
+          <p>step one</p>
+        </div>
+        <div class="text-lg">
+          <h2 class="mt-1 text-4xl sm:px-6 sm:text-6xl lg:w-2/3 lg:mx-auto">Every business needs a different solution.</h2>
+
+          <div class="w-24 mx-auto text-red-400 sm:hidden">
+            <svg viewBox="0 0 24 24" class="fill-current" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M1 12.155c2.256 3.97 4.55 7.918 6.879 11.845h-5.379c-.829 0-1.5-.675-1.5-1.5v-10.345zm2.85.859c3.278 1.952 12.866 7.658 13.121 7.805l-5.162 2.98c-.231.132-.49.201-.751.201-.549 0-1.037-.298-1.299-.75l-5.909-10.236zm1.9-12.813c-.23-.133-.489-.201-.75-.201-.524 0-1.026.277-1.299.75l-3.5 6.062c-.133.23-.201.489-.201.749 0 .527.278 1.028.75 1.3 2.936 1.695 14.58 8.7 17.516 10.396.718.413 1.633.168 2.048-.55l3.5-6.062c.133-.23.186-.488.186-.749 0-.52-.257-1.025-.734-1.3l-17.516-10.395m.25 3.944c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2"/>
+            </svg>
+          </div>
+          
+          <p class="mx-auto mt-6 sm:px-6 sm:mt-3 lg:w-2/3 lg:mt-12 lg:text-xl">This is often the most exciting step. We work together to really understand exactly what you need out of your web experience. Each website, receives the <strong>same exceptional treatment.</strong> </p>
+            
+          <p class="mx-auto mt-3 sm:px-6 lg:w-2/3 lg:mt-3 lg:text-xl">There's no off the shelf parts here, every website starts from a blank page. You'll get one price. <strong>No hidden costs.</strong></p>
+
+          <div class="justify-center hidden mt-6 sm:flex lg:w-2/3 lg:mx-auto">
+            <div class="m-4 w-60 lg:w-full lg:mx-10 lg:mt-12">
+              <h3 class="mb-0 text-2xl font-semibold tracking-wider text-white">What you need, <br> and what you don't.</h3>
+              <hr class="mx-auto my-3">
+              <p class="font-light leading-snug text-gray-100">
+                Not every website needs a content management system like wordpress, though developers will load you up with one to increase the price. Keep it simple, make sure you only pay for what you really need.
+              </p>
+            </div>
+            <div class="m-4 w-60 lg:w-full lg:mx-10 lg:mt-12">
+              <h3 class="mb-0 text-2xl font-semibold tracking-wider text-white">What you need, <br> and what you don't.</h3>
+              <hr class="mx-auto my-3">
+              <p class="font-light leading-snug text-gray-100">
+                Not every website needs a content management system like wordpress, though developers will load you up with one to increase the price. Keep it simple, make sure you only pay for what you really need.
+              </p>
+            </div>
+            <div class="m-4 w-60 lg:w-full lg:mx-10 lg:mt-12">
+              <h3 class="mb-0 text-2xl font-semibold tracking-wider text-white">What you need, <br> and what you don't.</h3>
+              <hr class="mx-auto my-3">
+              <p class="font-light leading-snug text-gray-100">
+                Not every website needs a content management system like wordpress, though developers will load you up with one to increase the price. Keep it simple, make sure you only pay for what you really need.
+              </p>
+            </div>
+          </div>
+          
+          <div class="flex flex-col items-center justify-center sm:absolute sm:right-6 sm:bottom-1 lg:static">
+            <a class="self-center mt-8" href="#mockup">
+              <p class="text-2xl font-semibold tracking-wide text-white hover:underline">Developing your idea</p> 
+              <p class="text-2xl font-bold text-center text-white">&downarrow;</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{/*  Mockup Screen  */}}
+
+    <div id="mockup" class="relative min-h-screen md:h-auto lg:min-h-full lg:pb-8">
+      <div class="p-4">
+        <div class="mt-4 font-semibold tracking-wider text-red-500 uppercase sm:px-6 lg:w-2/3 lg:mx-auto">
+          <p>step two</p>
+        </div>
+        <div class="text-lg">
+          <h2 class="mt-1 text-4xl lg:text-6xl sm:px-6 lg:w-2/3 lg:mx-auto">The right information, in the right place.</h2>
+
+          <div class="w-24 mx-auto -mt-4 text-gray-800 sm:hidden">
+            <svg viewbox="0 0 24 24"  class="fill-current" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 23h-20c-2.208 0-4-1.792-4-4v-15.694c.313-1.071 1.285-2.306 3-2.306 1.855 0 2.769 1.342 2.995 2.312l.005 1.688h18v18zm-2-16h-16v11s-.587-1-1.922-1c-1.104 0-2.078.896-2.078 2s.896 2 2 2h18v-14zm-2 12h-12v-10h12v10zm-8-9h-3v8h10v-8h-6v3h6v1h-2v3h-1v-3h-3v3h-1v-7z"/></svg> 
+          </div>
+          
+          <div class="lg:w-2/3 lg:mx-auto sm:px-6">
+            <p class="mt-3">The world is on their phones, and your website needs to be built for mobile from the <strong>bottom up.</strong></p>
+              
+            <p class="mt-3">Getting it right on the small screens means even better results on the big ones. We call this the <em>mock-up</em> phase. I'll produce simple line drawings so we can understand and discuss the best way to layout your content.</p>
+          </div>
+
+          <div class="items-center justify-around hidden sm:flex lg:w-2/3 lg:mx-auto">
+            <div class="w-24 m-6 text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+              <p class="text-sm text-center text-gray-700">mobile</p>
+            </div>
+            <div class="w-24 mx-6 text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+              <p class="text-sm text-center text-gray-700">tablet</p>
+            </div>
+            <div class="w-24 m-6 text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokelinecap="round" stroke-linejoin="round" stroke-width="0.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <p class="text-sm text-center text-gray-700">desktop</p>
+            </div>
+          </div>
+
+          <div class="hidden sm:block lg:w-2/3 lg:mx-auto sm:px-6">
+            <p>
+              You might have heard the word <strong>responsive.</strong>
+            </p>
+            <p class="mt-3">
+              What we mean is that the layout modifies itself to match the device you view it on.
+            </p>
+            <p class="mt-3">
+              All of my websites are built for the smallest screens and then big ones, which means the most important content get's placed <strong>first</strong>.
+            </p>
+            <p class="mt-3 text-2xl font-bold tracking-wide">
+              Here's the <span class="text-red-500">'mock-up cycle'</span>:
+            </p>
+            <ol class="w-2/3 mx-auto list-decimal">
+              <li class="mt-2">After fully understanding your requirements, I'll put together a whole bunch of rough layouts for you to look at.</li>
+              <li class="mt-2">Once you've given your feedback, we'll work together over a few iterations to find something that solves your needs</li>
+              <li class="mt-2">Now we know what content's going where, we'll start looking at color and style, what sort of feel you'd like your site to have.</li>
+              <li class="mt-2">We'll go through these steps a few times, just to make sure were both on the same page before moving on.</li>
+            </ol>
+          </div>
+            
+          
+          <div class="flex flex-col items-center justify-center text-right sm:absolute right-6 sm:bottom-1 lg:static">
+            <a class="self-center mt-8" href="#design">
+              <p class="text-2xl font-semibold tracking-wide hover:underline">Let's give it some 'pop'</p> 
+              <p class="self-start text-2xl font-bold text-center">&downarrow;</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{/*  Design Screen  */}}
+
+    <div id="design" class="relative min-h-screen md:min-h-auto lg:min-h-full from-purple-400 to-indigo-600 bg-gradient-to-tr lg:pb-4">
+      <div class="p-4">
+        <div class="mt-4 font-semibold tracking-wider text-white uppercase sm:px-6 lg:w-2/3 lg:mx-auto">
+          <p>step three</p>
+        </div>
+        <div class="text-lg">
+          <h2 class="mt-1 text-4xl sm:text-6xl sm:px-6 lg:w-2/3 lg:mx-auto">It's your vision, refined. Exceptional, purposeful design.</h2>
+
+          <div class="sm:px-6 lg:w-2/3 lg:mx-auto">
+            <p class="mt-6">This is where it all comes together. We understand your mission, your brand and your needs - now it's time to bring it to life.</p>
+              
+            <p class="mt-3">I don't believe in keeping you in the dark. This process is tailored to you, be involved at every step - or just give feedback at the end of each cycle.</p>
+  
+            <p class="mt-3">I'll help you really express yourself, even if you don't quite know what you'd like to say yet.</p>
+  
+            {{/*  Porfolio Section  */}}
+            <div class="hidden sm:block">
+              <div>
+                <p class="mt-6 text-3xl font-bold tracking-wide text-white">
+                  Here's some of my recent work
+                </p>
+              </div>
+              <div class="grid grid-cols-2 mt-4">
+                <div class="flex items-center justify-center text-gray-500 bg-gray-400 h-96">
+                  Portfolio Piece One
+                </div>
+                <div class="flex items-center justify-center text-gray-500 bg-gray-700 h-96">
+                  Portfolio Piece Two
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col items-center justify-center text-right sm:absolute sm:right-6 sm:bottom-1 lg:static">
+            <a class="self-center mt-8" href="#develop">
+              <p class="text-2xl font-semibold tracking-wide text-white hover:underline">Now, the code.</p> 
+              <p class="text-2xl font-bold text-center text-white">&downarrow;</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{/*  Develop Screen  */}}
+
+    <div id="develop" class="relative min-h-screen md:min-h-auto lg:min-h-full">
+      <div class="p-4">
+        <div class="mt-4 font-semibold tracking-wider text-red-500 uppercase sm:px-6 lg:w-2/3 lg:mx-auto">
+          <p>step four</p>
+        </div>
+        <div class="text-lg">
+          <h2 class="mt-1 mb-0 text-3xl sm:text-5xl lg:text-6xl sm:px-6 lg:w-2/3 lg:mx-auto">I'll spare you the details, by getting all the details right.</h2>
+          
+          <div class="lg:w-2/3 lg:mx-auto">
+            <p class="mt-3 sm:px-6">I'm not going to bore you with the technicalties. But rest assured your site will be built only with modern <em>HTML5</em>, <em>CSS3</em> and <em>Javascript.</em></p>
+              
+            <p class="mt-3 sm:px-6">You'll be able to preview your website live and give feedback on the real thing.</p>
+            
+            <div class="mt-3 sm:px-6">
+              <p class="font-semibold">Every website is:</p>
+              <ul class="mt-1 ml-10 list-disc list-outside">
+                <li>Optimised for <span class="font-bold tracking-wide text-red-500">SEO</span> and accesibility</li>
+                <li>Beautiful on mobile, tablet and desktop</li>
+                <li>Super fast and secure</li>
+                <li>Tested in all modern browsers, covering >95% of customers</li>
+              </ul>
+            </div>
+  
+            <div class="hidden sm:block">
+              <h3>Pssst... here's the details if you want them</h3>
+              <div class="w-11/12 px-4 py-4 mx-auto my-4 border rounded-md shadow-md">
+                <h4 class="m-0 text-2xl">Static Websites</h4>
+                <hr class="my-1">
+                <p class="text-base text-gray-700">Not every website needs complexity. Staticly generated websites built on Hugo are ideal for your local business, club, interest group and more.</p>
+              </div>
+              <div class="w-11/12 px-4 py-4 mx-auto my-4 border rounded-md shadow-md">
+                <h4 class="m-0 text-2xl">eCommerce</h4>
+                <hr class="my-1">
+                <p class="text-base text-gray-700">Your eCommerce site needs a simple, powerful experience that won't let your customers down. If you haven't got a platform yet - I recommend <a class="text-blue-600 hover:underline" href="https://www.shopify.co.uk/">shopify.</a> If your already established, great, let me help you get the most out of your chosen platform.</p>
+              </div>
+              <div class="w-11/12 px-4 py-4 mx-auto my-4 border rounded-md shadow-md">
+                <h4 class="m-0 text-2xl">Complex Solutions</h4>
+                <hr class="my-1">
+                <p class="text-base text-gray-700">Have a more ambitous web experience in mind? Let's choose a technology that's best suited to the task. No matter if it's a React SPA or Drupal CMS you need - I'll be able to consulte you on the best decision.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col items-center justify-center text-right sm:absolute sm:right-6 sm:bottom-1 lg:static">
+            <a class="self-center mt-8" href="#deploy">
+              <p class="text-2xl font-semibold tracking-wide hover:underline">It's time to launch 🚀</p> 
+              <p class="text-2xl font-bold text-center">&downarrow;</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{/*  Deploy  */}}
+
+    <div id="deploy" class="relative min-h-screen md:min-h-auto lg:min-h-full from-gray-800 to-indigo-900 bg-gradient-to-tr">
+      <div class="p-4">
+        <div class="mt-4 font-semibold tracking-wider text-yellow-400 uppercase sm:px-6 lg:w-2/3 lg:mx-auto">
+          <p>step five</p>
+        </div>
+        <div class="text-lg text-gray-50">
+          <h2 class="mt-1 text-5xl text-white sm:text-7xl sm:px-6 lg:w-2/3 lg:mx-auto">Online. <br /> Hassle-free.</h2>
+
+          <div class="lg:w-2/3 lg:mx-auto">
+            <div class="flex justify-center">
+              <div class="flex items-center w-2/3 px-2 py-1 border-2 border-black rounded-lg shadow-md">
+                <div class="w-3 h-3 bg-green-400 rounded-full sm:ml-3 animate-pulse"></div>
+                <p class="ml-2 text-base sm:ml-4 sm:text-xl">Your Perfect Website</p>
+              </div>
+            </div>
+            
+            <div class="sm:p-6 lg:text-xl">
+              <p class="mt-6">You've signed off and it's time to bring our creation to your customers.</p>
+              <p class="mt-3">I'll provide you with everything you need, including any training.</p>
+              <p class="mt-3">Need help with hosting? I'll get you set-up and hand it over <em>free of charge.</em></p>
+    
+              <p class="mt-3 text-base text-gray-300">The service doesn't end after final payment. Anything you need and I'll be right there for you.</p>
+            </div>
+  
+            <div class="hidden mt-4 sm:block">
+              <div class="w-11/12 p-4 mx-auto my-4 bg-black bg-opacity-20">
+                <h3 class="m-0 text-3xl text-yellow-400">It's yours. 100%</h3>
+                <p>
+                  Unlike a lot of web developers, I don't want control at the end. After we've done the final handover, the code is yours, forever.
+                </p>
+              </div>
+              <div class="w-11/12 p-4 mx-auto my-4 bg-black bg-opacity-20">
+                <h3 class="m-0 text-3xl text-yellow-400">Content is King</h3>
+                <p>
+                  Need excellent content before you launch? I'll hook you up with my network of writers and editors.
+                </p>
+              </div>
+              <div class="w-11/12 p-4 mx-auto my-4 bg-black bg-opacity-20">
+                <h3 class="m-0 text-3xl text-yellow-400">Domain Name Registry</h3>
+                <p>
+                  If you haven't got a domain name, you'll need to choose and register one. I can guide you through the process, making sure you choose a great domain that will serve you well.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="flex flex-col items-center justify-center text-right sm:absolute sm:right-6 sm:bottom-1 lg:static">
+            <a class="self-center mt-8" href="#estimate">
+              <p class="text-2xl font-semibold tracking-wide text-white hover:underline">Let's get started</p> 
+              <p class="text-2xl font-bold text-center text-white">&downarrow;</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var submitted = false;
+    
+      const onSubmit = () => {
+        submitted = true;
+        let button = document.getElementById('gform-submit');
+        console.log('beep');
+        button.disabled = true;
+        button.value = 'Submitted!'
+        button.classList =
+          'w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto';
+      }
+    </script>
+
+    {{/*  Estimate Section  */}}
+    <div id="estimate" class="relative py-20 bg-white min-h-auto lg:min-h-full bg-gradient-to-tr">
+      <div class="p-4">
+        <div class="text-lg">
+          <h2 class="mt-1 text-5xl text-gray-900 sm:text-7xl sm:px-6 lg:w-2/3 lg:mx-auto">Get a free estimate.</h2>
+
+          <div class="lg:w-2/3 lg:mx-auto">           
+            <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdwDnpaw8Wz5D7sEgmP46q1qsZhBoYs74qYkSmOAXOgwIudFg/formResponse?"
+            target="hidden_iframe" onsubmit="onSubmit()" name="gfrom" id="gform">
+            <div class="-mt-4 text-xl leading-snug lg:w-4/5 lg:mx-auto">
+              <div>
+                <input name="entry.840288726" id="entry.840288726"
+                  class="inline-block w-full px-4 border border-gray-800 rounded-md appearance-none bg-opacity-20"
+                  type="text" placeholder="Your name...">
+              </div>
+              <div class="mt-1">
+                <textarea name="entry.1713578503" id="entry.1713578503"
+                  class="w-full px-4 py-2 text-base border border-gray-800 rounded-md bg-opacity-20" rows="8"
+                  placeholder="I'm excited to hear about your project! Tell me what your looking for and I'll get back to you."></textarea>
+              </div>
+              <div class="">
+                <span>You can get hold of me at:</span>
+                <input name="entry.881014309" id="entry.881014309"
+                  class="inline-block w-full px-4 mt-1 border border-gray-800 rounded-md appearance-none bg-opacity-20"
+                  type="text" placeholder="Your email...">
+              </div>
+              <div>
+                <div class="flex justify-center w-full mt-4">
+                  <input type="submit"
+                    class="w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto hover:text-white hover:bg-opacity-100 hover:shadow-xl"
+                    Value="Get an estimate." id="gform-submit">
+                </div>
+              </div>
+              <div>
+                <div class="mt-8 lg:flex">
+                  <div class="hidden border-r border-white lg:block lg:w-1/2">
+                    <span class="text-4xl">Get the website you've always needed.</span>
+                  </div>
+                  <div class="text-2xl text-right lg:w-1/2">
+                  </div>
+                </div>
+              </div>
+          </form>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  {{partial "footer/footer" .}}
+</body>
+
+</html>
