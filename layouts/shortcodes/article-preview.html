@@ -1,7 +1,7 @@
 {{ $article := .Get 0}}
 {{ with .Site.GetPage "/articles" }}
 {{ with .GetPage $article}}
-<div>
+<div class="-mt-3">
   {{ partial "articles/head" . }}
   <div class="px-6 py-6 shadow-md bg-gray-50 md:px-14 hugodown rounded-xl">
     <div class="max-w-4xl mx-auto">

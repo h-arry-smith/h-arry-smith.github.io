@@ -18,4 +18,4 @@ Get a load of what I'm doing right [now.](/now)
 
 ## :gear: Featured Project
 
-{{< project-feature "reddit-view.md" >}}
+{{< project-feature "tailwind-color-editor.md" >}}
