@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:28:31 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tailwind Color Editor</title>
+      <link>https://h-arry-smith.github.io/projects/tailwind-color-editor/</link>
+      <pubDate>Tue, 09 Feb 2021 14:32:05 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/tailwind-color-editor/</guid>
+      <description>Learning Aims I wanted to create a project that would advance my understanding of creating a non-trivial UI, with complex user interaction. I had a need for creating a tool that would allow a better interface for crafting color palettes for client projects using tailwind.
+Technology  Vue 3 Tailwind CSS 2.0  Current Development This project is currently under development between other work. At the moment it has the following features:</description>
+    </item>
+    
+    <item>
       <title>Screenwind</title>
       <link>https://h-arry-smith.github.io/projects/screenwind/</link>
       <pubDate>Tue, 05 Jan 2021 11:25:13 +0000</pubDate>

@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tailwind Color Editor</title>
+      <link>https://h-arry-smith.github.io/projects/tailwind-color-editor/</link>
+      <pubDate>Tue, 09 Feb 2021 14:32:05 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/tailwind-color-editor/</guid>
+      <description>Learning Aims I wanted to create a project that would advance my understanding of creating a non-trivial UI, with complex user interaction. I had a need for creating a tool that would allow a better interface for crafting color palettes for client projects using tailwind.
+Technology  Vue 3 Tailwind CSS 2.0  Current Development This project is currently under development between other work. At the moment it has the following features:</description>
+    </item>
+    
+    <item>
       <title>Get an Estimate</title>
       <link>https://h-arry-smith.github.io/estimate/</link>
       <pubDate>Tue, 05 Jan 2021 15:27:54 +0000</pubDate>
@@ -77,9 +87,9 @@ Personal fitness has become a poisoned well of mis-information and cash-grabs. I
       <pubDate>Tue, 29 Dec 2020 11:28:56 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/now/</guid>
-      <description>now. I’m currently working on the CodeCademy Full Stack Developer career path. I&amp;rsquo;m getting distracted along the way.
-I’m focused on building out this website, and making it useful.
-I’m reading The Pragmatic Programmer by Andrew Hunt and David Thomas.
+      <description>Now I’m currently working on the CodeCademy Full Stack Developer career path. I&amp;rsquo;m getting distracted along the way.
+I’m focused on building websites for my first professional clients, with some exciting projects on the way.
+I’m reading Essentialism by Greg McKeown.
 I’m learning all about leather craft at the moment. I’ve been making wallets over and over.
 I can’t go climbing at the moment, but as soon as I can, I’ll be down the wall as much as possible.</description>
     </item>
@@ -101,7 +111,7 @@ Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. 
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/contact/</guid>
-      <description>Get in touch. ✉️ #span-36fdb0d3.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-36fdb0d3&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+      <description>Get in touch. ✉️ #span-90daf618.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-90daf618&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>
