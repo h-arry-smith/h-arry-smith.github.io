@@ -28,121 +28,6 @@
 <body class="subpixel-antialiased text-gray-800 bg-gray-100">
   
   
-
-<script type="text/javascript">
-  var submitted = false;
-
-  window.addEventListener('load', () => {
-    document.getElementById('animate-in').classList.remove('translate-x-48');
-    document.getElementById('animate-in').classList.remove('opacity-0');
-    document.getElementById('animate-in2').classList.remove('translate-x-48');
-    document.getElementById('animate-in2').classList.remove('opacity-0');
-    document.getElementById('animate-in3').classList.remove('translate-x-48');
-    document.getElementById('animate-in3').classList.remove('opacity-0');
-    document.getElementById('animate-in4').classList.remove('translate-x-48');
-    document.getElementById('animate-in4').classList.remove('opacity-0');
-    document.getElementById('animate-in5').classList.remove('opacity-0');
-    document.getElementById('animate-in6').classList.remove('opacity-0');
-  })
-
-  const onSubmit = () => {
-    submitted = true;
-    let button = document.getElementById('gform-submit');
-    console.log('beep');
-    button.disabled = true;
-    button.value = 'Submitted!'
-    button.classList =
-      'w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto';
-  }
-</script>
-
-<div class="h-auto px-4 pt-2 pb-6 mb-4 text-white shadow-2xl from-black to-indigo-900 bg-gradient-to-tr">
-  <a href="#cta-bottom">
-    <div class="flex justify-center font-semibold text-center ">
-      <div class="hover:underline">
-        Looking for more?
-      </div>
-      <div class="mt-1 ml-2 animate-bounce">
-        <span>&downarrow;</span>
-      </div>
-    </div>
-  </a>
-
-  <div class="mx-auto mt-8 md:w-2/3">
-    <form
-      action="https://docs.google.com/forms/d/e/1FAIpQLSdwDnpaw8Wz5D7sEgmP46q1qsZhBoYs74qYkSmOAXOgwIudFg/formResponse?"
-      target="hidden_iframe" onsubmit="onSubmit()" name="gfrom" id="gform">
-      <div class="text-5xl leading-snug md:text-3xl">
-
-        <div id="animate-in" class="transition transform translate-x-48 opacity-0 left-full"
-          style="transition-duration: 2000ms;">
-          <span>Hi, Harry. I'm</span>
-          <span>
-            <input name="entry.840288726" id="entry.840288726"
-              class="inline-block w-full px-4 mt-2 bg-black border border-white rounded-lg appearance-none bg-opacity-20"
-              type="text" placeholder="Your name...">
-          </span>
-        </div>
-
-        <div id="animate-in2" class="mt-2 transition delay-100 transform translate-x-48 opacity-0 left-full"
-          style="transition-duration: 2500ms;">
-          <span>
-            Can you get me an estimate for?
-          </span>
-        </div>
-
-        <div id="animate-in3" class="mt-2 transition delay-200 transform translate-x-48 opacity-0 left-full"
-          style="transition-duration: 2500ms;">
-          <textarea name="entry.1713578503" id="entry.1713578503"
-            class="w-full p-4 text-lg bg-black border border-white rounded-lg bg-opacity-20" rows="5"
-            placeholder="I'm excited to hear about your project! Tell me what your looking for and I'll get back to you."></textarea>
-        </div>
-
-        <div id="animate-in4"
-          class="mt-2 text-5xl transition delay-300 transform translate-x-48 opacity-0 md:text-3xl left-full"
-          style="transition-duration: 2500ms;">
-          <span>You can get hold of me at:</span>
-          <input name="entry.881014309" id="entry.881014309"
-            class="inline-block w-full px-4 mt-2 bg-black border border-white rounded-lg appearance-none bg-opacity-20"
-            type="text" placeholder="Your email...">
-        </div>
-
-        <div id="animate-in5" class="mt-2 text-5xl transition delay-700 transform opacity-0 md:text-3xl left-full"
-          style="transition-duration: 2500ms;">
-          <div class="flex justify-center w-full mt-4">
-            <input type="submit"
-              class="w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto hover:text-white hover:bg-opacity-100 hover:shadow-xl"
-              Value="Get an estimate." id="gform-submit">
-          </div>
-        </div>
-
-        <div id="animate-in6" class="mt-2 text-5xl transition delay-1000 transform opacity-0 md:text-3xl left-full"
-          style="transition-duration: 2500ms;">
-          <div class="mt-8 lg:flex">
-            <div class="hidden border-r border-white lg:block lg:w-1/2">
-              <p class="text-4xl">Get the website you've always needed.</p>
-            </div>
-            <div class="text-2xl text-right lg:w-1/2">
-              <div class="ml-4">
-                <a href="/get" class="block transition duration-500 transform hover:underline hover:translate-x-2">
-                  How it Works. &rightarrow;
-                </a>
-                <a href="/articles/free-website-builders-will-cost-you-more/#article-head"
-                  class="block mt-4 transition duration-500 transform hover:underline hover:translate-x-2">
-                  Why free website builders will cost you thousands. &rightarrow;
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </form>
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-    <div id="cta-bottom"></div>
-  </div>
-</div>
-
-
   <div class="container w-full mx-auto">
 
     
@@ -530,32 +415,6 @@
   </div>
 
   
-
-  
-  
-  
-
-  
-
-  <div
-    class="hidden lg:block py-4 lg:py-2 lg:pr-4 w-full lg:w-auto px-1 lg:border-r-2 border-b-2 lg:border-b-0  hover:font-semibold ease-in-out duration-300"
-    style="transition-property: font-weight;">
-    <a href="/estimate/">
-      <div class="flex lg:justify-end">
-        <div class="hidden mx-4 md:block">
-          
-        </div>
-        <div class="mx-auto tracking-wider text-center md:mx-0">
-          <span class='font-semibold text-indigo-400 transition duration-300 lg:text-4xl hover:text-indigo-500'>Get an Estimate</span>
-        </div>
-        <div>
-          
-        </div>
-      </div>
-    </a>
-  </div>
-
-  
 </div>
       </div>
     </div>
@@ -832,32 +691,6 @@
   </div>
 
   
-
-  
-  
-  
-
-  
-
-  <div
-    class="hidden lg:block py-4 lg:py-2 lg:pr-4 w-full lg:w-auto px-1 lg:border-r-2 border-b-2 lg:border-b-0  hover:font-semibold ease-in-out duration-300"
-    style="transition-property: font-weight;">
-    <a href="/estimate/">
-      <div class="flex lg:justify-end">
-        <div class="hidden mx-4 md:block">
-          
-        </div>
-        <div class="mx-auto tracking-wider text-center md:mx-0">
-          <span class='font-semibold text-indigo-400 transition duration-300 lg:text-4xl hover:text-indigo-500'>Get an Estimate</span>
-        </div>
-        <div>
-          
-        </div>
-      </div>
-    </a>
-  </div>
-
-  
 </div>
         </div>
       </div>
@@ -865,14 +698,10 @@
         
 
 <div class="hugodown">
-  <h1 id="hey-im-harry">Hey, I&rsquo;m Harry.</h1>
-<p>I&rsquo;m excited about modern web development and applications. I&rsquo;m collecting everything I&rsquo;ve learned and everything I&rsquo;m making here, so I can share it with <strong>you</strong>.
-<br>
-<br>
-You can read about my journey and what I&rsquo;m excited about <a href="/about">here.</a>
-<br>
-<br>
-Get a load of what I&rsquo;m doing right <a href="/now">now.</a></p>
+  <h1 id="hello-">Hello 👋</h1>
+<p>I&rsquo;m Harry. I used to tour the world building some of the most ambitous live experiences in the world. Now I&rsquo;m using those same skills to build web experiences. I&rsquo;m bored of products that suck and business more interested in pumping your wallet dry than improving your life. So I&rsquo;ve decided to do something about it and build my own.</p>
+<p>You can read about my journey <a href="/about">here.</a></p>
+<p>Get a load of what I&rsquo;m doing right <a href="/now">now.</a></p>
 <h2 id="-most-recent-article">✏️ Most Recent Article</h2>
 
 
