@@ -5,7 +5,7 @@ draft: false
 description: 'In browser color editor for creating number scaled color palettes in the style of the tailwind color palettes.'
 status: 'alpha'
 projectSize: 'major'
-mainImage: '/projects/tailwind-color-editor/shot_3.png'
+mainImage: '/projects/tailwind-color-editor/shot_2.png'
 screenshots:
   - /projects/tailwind-color-editor/shot_1.png
   - /projects/tailwind-color-editor/shot_2.png
