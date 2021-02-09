@@ -9,7 +9,6 @@ mainImage: '/projects/tailwind-color-editor/shot_3.png'
 screenshots:
   - /projects/tailwind-color-editor/shot_1.png
   - /projects/tailwind-color-editor/shot_2.png
-  - /projects/tailwind-color-editor/shot_3.png
 github: 'https://github.com/h-arry-smith/tailwind-color-editor'
 ---
 
