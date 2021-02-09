@@ -33,23 +33,23 @@ h3,
 h4,
 h5,
 h6 {
-  @apply my-6 font-bold leading-tight text-gray-800;
+  @apply mt-3 font-bold leading-tight text-gray-800;
 }
 
 .hugodown h1 {
-  @apply pb-4 text-5xl;
-}
-
-.hugodown h2 {
   @apply text-4xl;
 }
 
-.hugodown h3 {
+.hugodown h2 {
   @apply text-3xl;
 }
 
-.hugodown h4 {
+.hugodown h3 {
   @apply text-2xl;
+}
+
+.hugodown h4 {
+  @apply text-xl;
 }
 
 .hugodown h5 {
@@ -68,16 +68,16 @@ h6 {
 
 /* Paragraph Styling */
 .hugodown p {
-  @apply mt-6 font-serif text-xl leading-normal tracking-wide;
+  @apply my-3 font-serif text-lg leading-normal tracking-wide;
 }
 
 /* List Styling */
 .hugodown ul {
-  @apply ml-6 font-serif text-2xl leading-normal tracking-wide list-disc list-inside;
+  @apply mt-3 ml-6 font-serif text-lg leading-normal tracking-wide list-disc list-inside;
 }
 
 .hugodown ol {
-  @apply ml-6 font-serif text-2xl leading-normal tracking-wide list-decimal list-inside;
+  @apply mt-3 ml-6 font-serif text-lg leading-normal tracking-wide list-decimal list-inside;
 }
 
 /* Block Quote Styling */
@@ -87,11 +87,11 @@ h6 {
 
 /* Footnote Styling */
 
-.hugodown ol>li[role="doc-endnote"]::marker {
+.hugodown ol > li[role='doc-endnote']::marker {
   display: inline-block;
 }
 
-.hugodown ol>li[role="doc-endnote"] p {
+.hugodown ol > li[role='doc-endnote'] p {
   display: inline-block;
   font-size: 1.2rem !important;
 }

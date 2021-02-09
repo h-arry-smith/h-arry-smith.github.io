@@ -31244,30 +31244,28 @@ video {
 .hugodown h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.25;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 0.75rem;
   --tw-text-opacity: 1;
   color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 
 .hugodown h1 {
-  font-size: 3rem;
-  line-height: 1;
-  padding-bottom: 1rem;
-}
-
-.hugodown h2 {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
-.hugodown h3 {
+.hugodown h2 {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.hugodown h4 {
+.hugodown h3 {
   font-size: 1.45rem;
+}
+
+.hugodown h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .hugodown h5 {
@@ -31292,10 +31290,11 @@ video {
 
 .hugodown p {
   font-family: Montserrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   line-height: 1.5;
-  margin-top: 1.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   letter-spacing: 0.025em;
 }
 
@@ -31303,20 +31302,24 @@ video {
 
 .hugodown ul {
   font-family: Montserrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.45rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   line-height: 1.5;
   list-style-position: inside;
   list-style-type: disc;
+  margin-top: 0.75rem;
   margin-left: 1.5rem;
   letter-spacing: 0.025em;
 }
 
 .hugodown ol {
   font-family: Montserrat, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.45rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   line-height: 1.5;
   list-style-position: inside;
   list-style-type: decimal;
+  margin-top: 0.75rem;
   margin-left: 1.5rem;
   letter-spacing: 0.025em;
 }
@@ -31344,11 +31347,11 @@ video {
 
 /* Footnote Styling */
 
-.hugodown ol>li[role="doc-endnote"]::marker {
+.hugodown ol > li[role='doc-endnote']::marker {
   display: inline-block;
 }
 
-.hugodown ol>li[role="doc-endnote"] p {
+.hugodown ol > li[role='doc-endnote'] p {
   display: inline-block;
   font-size: 1.2rem !important;
 }
