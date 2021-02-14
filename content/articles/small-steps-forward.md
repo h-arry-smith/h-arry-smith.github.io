@@ -1,11 +1,11 @@
 ---
 title: 'The Book Of Steps'
-date: 2021-02-09T15:13:34Z
+date: 2021-02-14T12:00:00Z
 draft: false
 tags: []
 author: 'Harry Smith'
 icon: '📖'
-shortDescription: 'Big wins come from lots of small steps, it's easy to forget them, so I keep a little book of all of them.'
+shortDescription: "Big wins come from lots of small steps, it's easy to forget them, so I keep a little book of all of them."
 ---
 
 ## Sometimes it's hard to see progress
