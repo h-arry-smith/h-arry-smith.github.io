@@ -14,7 +14,7 @@ Get a load of what I'm doing right [now.](/now)
 
 ## :pencil2: Most Recent Article
 
-{{< article-preview "your-body-is-designed-to-move.md" >}}
+{{< article-preview "small-steps-forward.md" >}}
 
 ## :gear: Featured Project
 

@@ -12,15 +12,23 @@ shortDescription: "Big wins come from lots of small steps, it's easy to forget t
 
 A few months a go I was driving my girlfriend crazy. I felt like I was accomplishing nothing. I was working hard than ever and I had nothing to show for it. Or so I thought. I felt like I was putting in the work but I had nothing to show for it. The truth was I couldn't see it. I've always believed that big results come from committing to long term progress. But, I was like the frog in the boiling water, when the wins are small sometimes it's hard to see the results over time.
 
-For years I've struggled with getting my projects off the ground. I'd feel motivated by an idea, only to loose steam after a few days. It would sit forever on the back burner. Getting no closer to completion. I've been fortunate to always have a career that's granted me a lot of free time. I always thought that I'd use that free time for amazing things, but instead I often wasted the time away. I end up feeling guilty and bored. I wasn't committed to the process. I wanted over night results. Over night results aren't over night at all though, they are years of consistent effort. My passionate beginnings were unsustainable over the long term. A furious blitz of activity that made me feel good but actually got me no closer to my goals. To achieve big goals you must commit to small steps forward. Focus energy on the pursuit of the next step, not wasted on trying to create giant leaps at once.
+For years I've struggled with getting my projects off the ground. I'd feel motivated by an idea, only to loose steam after a few days. It would sit forever on the back burner. Getting no closer to completion. I've been fortunate to always have a career that's granted me a lot of free time. I always thought that I'd use that free time for amazing things, but instead I often wasted the time away. I end up feeling guilty and bored.
 
-"Moving forward , one step at a time . Subordinate strength to the process . Replace fear with the process . Depend on it . Lean on it . Trust in it" - Ryan Holiday, The Obstacle is The Way
+I wasn't committed to the process. I wanted over night results. Over night results aren't over night at all though, they are years of consistent effort. My passionate beginnings were unsustainable over the long term. A furious blitz of activity that made me feel good but actually got me no closer to my goals. To achieve big goals you must commit to small steps forward. Focus energy on the pursuit of the next step, not wasted on trying to create giant leaps at once.
+
+{{< idea >}}
+
+"Moving forward , one step at a time . Subordinate strength to the process . Replace fear with the process . Depend on it . Lean on it . Trust in it"
+
+{{</ idea >}}
+
+_Ryan Holiday, The Obstacle is The Way_
 
 Process is what allows you to achieve. It forces action. If you've ever felt like you couldn't tackle a dream because of its size - you are in good company. Looking at the big picture can be a dangerous lure that overwhelms you. Ask 'what is the next step I can take right now towards what I want?', you break goals into achievable chunks. Process is also what keeps you going long after the initial passion for project has faded. It is more than taking action, it is committing to taking those actions over the long term.
 
 It's amazing to think about the compounding effects of a dedication to good process. If you took three steps towards your dream every single day, where would you be in a month?, a year?, a decade? Results are not the actions you take, but how long you keep taking those actions for.
 
-Success = Number of Steps Forwards \* Time Applied
+**Success = Number of Steps Forwards \* Time Applied**
 
 Not all progress has a visible result. I always view progress as a invisible process, made visible at critical moments. It is like a new mountain pushing up from the ocean floor, only creating new land after millions of years. If you don't look below the surface, you'd think nothing was happening. The same is true in our lives. Measure what happens below the surface, and your growth will motivate you. If you only measure what you see, you'll get discouraged.
 
@@ -32,7 +40,7 @@ There are small wins every day that we ignore. Maintenance tasks don't feel like
 
 For the last few months I've kept a small journal on me at all times. Every day, I write the date and underline it. I don't start a new page, as I want the information to be dense. (this is important for the review process). Every time I do anything that feels like a step in the right direction, I write it down. The requirements are loose by design. It's up to you to define what is a step in the right direction. Remember though that this log is for you, so write down the things that you wouldn't tell anyone else. It's a chance also to celebrate the private battles in life that aren't always easy to share.
 
-Since I started, it has become a e driving force for happiness and achievement in my life. What started as a simple way to track what I did each day, has turned into a powerful tool.
+Since I started, it has become a driving force for happiness and achievement in my life. What started as a simple way to track what I did each day, has turned into a powerful tool.
 
 ### Maintaining Momentum
 

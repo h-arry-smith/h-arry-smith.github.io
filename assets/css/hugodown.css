@@ -68,7 +68,7 @@ h6 {
 
 /* Paragraph Styling */
 .hugodown p {
-  @apply my-3 font-serif text-lg leading-normal tracking-wide;
+  @apply my-6 font-serif text-lg leading-normal tracking-wide;
 }
 
 /* List Styling */
