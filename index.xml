@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harry Smith | Web Developer on My New Hugo Site</title>
+    <link>https://h-arry-smith.github.io/</link>
+    <description>Recent content in Harry Smith | Web Developer on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tailwind Color Editor</title>
+      <link>https://h-arry-smith.github.io/projects/tailwind-color-editor/</link>
+      <pubDate>Tue, 09 Feb 2021 14:32:05 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/tailwind-color-editor/</guid>
+      <description>Learning Aims I wanted to create a project that would advance my understanding of creating a non-trivial UI, with complex user interaction. I had a need for creating a tool that would allow a better interface for crafting color palettes for client projects using tailwind.
+Technology  Vue 3 Tailwind CSS 2.0  Current Development This project is currently under development between other work. At the moment it has the following features:</description>
+    </item>
+    
+    <item>
+      <title>Get an Estimate</title>
+      <link>https://h-arry-smith.github.io/estimate/</link>
+      <pubDate>Tue, 05 Jan 2021 15:27:54 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/estimate/</guid>
+      <description>var submitted = false; const onSubmit = () = { submitted = true; let button = document.getElementById(&#39;gform-submit&#39;); console.log(&#39;beep&#39;); button.disabled = true; button.value = &#39;Submitted!&#39; button.classList = &#39;w-full py-2 text-xl text-center text-yellow-400 transition duration-500 bg-yellow-400 bg-opacity-0 border-2 border-yellow-400 rounded-full shadow-md appearance-none md:w-2/5 md:ml-auto&#39;; }   Hi, Harry. I&#39;m  Can you get me an estimate for?     You can get hold of me at:      Get the website you&#39;ve always needed.</description>
+    </item>
+    
+    <item>
+      <title>Free Website Builders cost a lot more than their Price Tag</title>
+      <link>https://h-arry-smith.github.io/articles/free-website-builders-will-cost-you-more/</link>
+      <pubDate>Tue, 05 Jan 2021 14:46:04 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/articles/free-website-builders-will-cost-you-more/</guid>
+      <description>I&#39;m currently accepting projects, get in touch for an estimate &amp;rightarrow;     Customers first point of contact with your business is more and more likely to be your website.
+If you&amp;rsquo;ve been looking at getting a new website for your business or project you know they aren&amp;rsquo;t cheap.
+Costs range from anywhere from a few hundred to a few thousand pounds. Website builders seem an attractive option for cost conscious business owners.</description>
+    </item>
+    
+    <item>
+      <title>Screenwind</title>
+      <link>https://h-arry-smith.github.io/projects/screenwind/</link>
+      <pubDate>Tue, 05 Jan 2021 11:25:13 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/screenwind/</guid>
+      <description>Screenwind is a command line tool that automatically creates screenshots using the default tailwind breakpoints. I built this utitlity to practice developing CLI and for usage with clients as I use tailwind a lot.
+Installation Download and install globally using:
+1  node install . -g   Dependencies  Chalk ^4.1.0 Puppeteer ^5.5.0 Yargs ^16.2.0  Usage 1  screenwind https://www.google.co.uk   By default it will output the .</description>
+    </item>
+    
+    <item>
+      <title>Tailbreak</title>
+      <link>https://h-arry-smith.github.io/projects/tailbreak/</link>
+      <pubDate>Sun, 03 Jan 2021 09:15:13 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/tailbreak/</guid>
+      <description>About The Project tailbreak is a ultra lightweight (80 loc!) utility that let&amp;rsquo;s you detect which tailwind breakpoint you are in based on your configuration file. It supports all the custom screen breakpoints from the tailwind documentation. It has no dependencies, other than the reccomended resolveConfig which already comes with tailwind.
+Getting Started To install in your project / web application
+1  npm install tailbreak   Example Code 1 2 3 4 5 6 7 8  import Tailbreak from &amp;#39;tailbreak&amp;#39;; const tb = Tailbreak(); if (tb.</description>
+    </item>
+    
+    <item>
+      <title>RedditView</title>
+      <link>https://h-arry-smith.github.io/projects/reddit-view/</link>
+      <pubDate>Sun, 03 Jan 2021 09:15:05 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/projects/reddit-view/</guid>
+      <description>RedditView is a minimal React/Redux reddit viewer, using the reddit JSON API. This project has been built for the CodeCademy Full Stack Career Path, as part of the portfolio projects.
+You can view this project live on Github Pages
+Learning Aims  Create a self directed project, making design and implementation decision independantly, and understanding their advantages and trade offs. Adhere to best practices to the best of my ability Experiment with unit, integration and end to end testing Use git &amp;amp; github projects to manage the development process Create a beautiful, interactive, mobile-first design using TailwindCSS  Technology  React 17 Redux 7 React-Router v5 TailwindCSS 2.</description>
+    </item>
+    
+    <item>
+      <title>Your body knows how to move. So move it.</title>
+      <link>https://h-arry-smith.github.io/articles/your-body-is-designed-to-move/</link>
+      <pubDate>Sat, 02 Jan 2021 11:47:35 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/articles/your-body-is-designed-to-move/</guid>
+      <description>Every new year, this year more than most, we ruminate on the future. For many, this means another yearly attempt at building exercise into their routines.
+Often, they fail. I failed every year from 2010 to 2019.
+Personal fitness has become a poisoned well of mis-information and cash-grabs. Information is either outdated, complex or designed to mislead you. Gyms leech your finances, paying for equipment you don&amp;rsquo;t understand and don&amp;rsquo;t need.</description>
+    </item>
+    
+    <item>
+      <title>Now</title>
+      <link>https://h-arry-smith.github.io/now/</link>
+      <pubDate>Tue, 29 Dec 2020 11:28:56 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/now/</guid>
+      <description>Now I’m currently working on the CodeCademy Full Stack Developer career path. I&amp;rsquo;m getting distracted along the way.
+I’m focused on building websites for my first professional clients, with some exciting projects on the way.
+I’m reading Essentialism by Greg McKeown.
+I’m learning all about leather craft at the moment. I’ve been making wallets over and over.
+I can’t go climbing at the moment, but as soon as I can, I’ll be down the wall as much as possible.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://h-arry-smith.github.io/about/</link>
+      <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/about/</guid>
+      <description>About Me. 👋 Hey, I&amp;rsquo;m Harry. I&amp;rsquo;m one of a triplet living in the south of the UK.
+I&amp;rsquo;ve got a 1st Class BA Hons in Professional Production Skills from the University of Surrey. For the many who won&amp;rsquo;t know; it&amp;rsquo;s a degree on how build and design live entertainment and theatre.
+Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. Touring arena &amp;amp; stadium music concerts and big one-off events.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://h-arry-smith.github.io/contact/</link>
+      <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/contact/</guid>
+      <description>Get in touch. ✉️ #span-4897d5f6.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-4897d5f6&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+    </item>
+    
+  </channel>
+</rss>
