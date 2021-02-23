@@ -29,10 +29,12 @@ The 'Master Action List' is a system for making sure that you complete action it
 It is a simple concept. Go through all your book notes. Take any actionable information, and merge it into a single action item list. Whenever you read something new, do the same.
 
 This is how I use this 'Master Action List' every week to take actions from my reading:
-Assign any and all action items from books, articles, or own ideas to master action list
-Categorise actions by source, and type (e.g read, research, habit..)
-Review action list every Sunday. Assign one action item to complete on each day of the upcoming week
-Complete these action items each day
+
+1. Assign any and all action items from books, articles, or own ideas to master action list
+2. Categorise actions by source, and type (e.g read, research, habit..)
+3. Review action list every Sunday. Assign one action item to complete on each day of the upcoming week
+4. Complete these action items each day
+
 One unexpected side effect of this process is that action items mingle in the list. Unseen relationships between ideas become easy to see. Ideas from different books fuse, creating new action items. This is very exciting to me and something I am exploring further. With this in mind each new book becomes a catalyse for novel personal innovation.
 
 It's obvious. It's simple. It's easy. Good ideas should be. Try it next time you read something, or start crawling your notes for action items. Put them in a list and make a habit of completing one a day. Now you aren't reading a book, but unlocking the next steps on your journey.
