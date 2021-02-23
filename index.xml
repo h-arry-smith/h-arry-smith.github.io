@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Master Action List</title>
+      <link>https://h-arry-smith.github.io/articles/master-action-list/</link>
+      <pubDate>Tue, 23 Feb 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/articles/master-action-list/</guid>
+      <description>I&amp;rsquo;ve been keeping a &amp;lsquo;Master Action List&amp;rsquo; to ensure that the key ideas that I discover get implemented. It&amp;rsquo;s a way of resurfacing the applicable concepts from books, courses, videos in one place. Don&amp;rsquo;t store good ideas but actually complete them.
+We don&amp;rsquo;t remember a huge amount of what we read. We act on even less of it. I am a veracious reader, reading between 4-6 books a month. Often when a book is particularly powerful, the ideas of the book stick with me forever.</description>
+    </item>
+    
+    <item>
       <title>The Book Of Steps</title>
       <link>https://h-arry-smith.github.io/articles/small-steps-forward/</link>
       <pubDate>Sun, 14 Feb 2021 12:00:00 +0000</pubDate>
@@ -120,7 +130,7 @@ Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. 
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/contact/</guid>
-      <description>Get in touch. ✉️ #span-8502bc19.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-8502bc19&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+      <description>Get in touch. ✉️ #span-273221cd.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-273221cd&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>
