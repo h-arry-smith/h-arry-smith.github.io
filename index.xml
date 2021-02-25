@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 11:03:23 +0000</lastBuildDate><atom:link href="https://h-arry-smith.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>This vs That</title>
+      <link>https://h-arry-smith.github.io/articles/this-vs-that/</link>
+      <pubDate>Wed, 24 Feb 2021 10:03:58 +0000</pubDate>
+      
+      <guid>https://h-arry-smith.github.io/articles/this-vs-that/</guid>
+      <description>Some things are traumatic to get started with. It seems that certain tasks are hard to begin, but easy once started. These high resistance tasks tend to be things that we care a lot about. Drawing, exercise, writing, studying to name but a few. You&amp;rsquo;ll recognise some of those tasks in your own mental list of things you don&amp;rsquo;t quite get round too doing. Creative or important work is taxing, and it&amp;rsquo;s all too easy to nudge it down the list.</description>
+    </item>
+    
+    <item>
       <title>Master Action List</title>
       <link>https://h-arry-smith.github.io/articles/master-action-list/</link>
       <pubDate>Tue, 23 Feb 2021 10:00:00 +0000</pubDate>
@@ -130,7 +139,7 @@ Since graduating in 2016, I&amp;rsquo;ve worked across Europe &amp;amp; the UK. 
       <pubDate>Tue, 29 Dec 2020 11:28:15 +0000</pubDate>
       
       <guid>https://h-arry-smith.github.io/contact/</guid>
-      <description>Get in touch. ✉️ #span-273221cd.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-273221cd&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
+      <description>Get in touch. ✉️ #span-79e52f0c.cloaked-e-mail:before { content:attr(data-domain) &#34;\0040&#34; attr(data-user); unicode-bidi:bidi-override; direction:rtl; }  &amp;#32;&amp;#32; var scriptTag = document.getElementById(&#34;script-79e52f0c&#34;); var link = document.createElement(&#34;a&#34;); var address = &#34;yrrah&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;ten.htimsh&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;); link.href = &#34;mailto&#34; + &#34;:&#34; + address; link.innerText = address.split(&#39;?&#39;)[0]; scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling); scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)  </description>
     </item>
     
   </channel>
