@@ -14,7 +14,7 @@ Get a load of what I'm doing right [now.](/now)
 
 ## :pencil2: Most Recent Article
 
-{{< article-preview "master-action-list.md" >}}
+{{< article-preview "a-sober-life.md" >}}
 
 ## :gear: Featured Project
 
